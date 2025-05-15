@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" /> <!-- Define la codificación de caracteres como UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Ajuste para que la página sea responsive -->
+  <title>Mi Hoja de Vida</title> <!-- Título que aparece en la pestaña del navegador -->
+  <link rel="stylesheet" href="style.css"> <!-- Vincula el archivo CSS -->
+</head>
+<body>
+
+<!-- Contenedor principal vacío por si quieres envolver todo el contenido más adelante -->
+<div class="container"></div>
+
+<!-- Encabezado con nombre y perfil profesional -->
+<header>
+  <h1>Cristian Camilo Gamba Torres</h1>
+  <p>
+    Soy estudiante de la carrera de Desarrollo de Software, con interés en la programación,
+    la resolución de problemas y el aprendizaje constante de nuevas tecnologías.
+    Me destaco por ser responsable, proactivo y con buena disposición para el trabajo en equipo.
+    Busco oportunidades que me permitan aplicar mis conocimientos,
+    seguir aprendiendo y aportar valor en proyectos reales.
+  </p>
+</header>
+
+<!-- Sección de educación -->
+<section>
+  <h2>👨‍🎓Educación</h2>
+  <ul>
+    <li>Uniagustiniana – Desarrollo de Software (En curso, 2025)</li>
+  </ul>
+</section>
+
+<!-- Sección de cursos -->
+<section>
+  <h2>📖Cursos adicionales</h2>
+  <ul>
+    <li>No cuento con cursos adicionales por el momento.</li>
+  </ul>
+</section>
+
+<!-- Sección de experiencia laboral -->
+<section>
+  <h2>💼Experiencia laboral</h2>
+  <ul>
+    <li>
+      <strong>Supermercado (trabajo ocasional)</strong> – Ayudante <br>
+      Organización de productos, apoyo en inventario, orden en góndolas. <br>
+      (2024 - Actualidad)
+    </li>
+  </ul>
+</section>
+
+<!-- Sección de habilidades técnicas -->
+<section>
+  <h2>🛠️Habilidades</h2>
+  <ul>
+    <li>HTML, CSS</li>
+    <li>Visual Studio Code</li>
+  </ul>
+</section>
+
+<!-- Sección de contacto -->
+<section class="contacto">
+  <h2>📞 Contacto</h2>
+  <p><strong>Email: gambatorresc@gmail.com</strong></p>
+  <p>
+    <!-- Enlace a GitHub que se abre en una nueva pestaña -->
+    <a href="https://github.com/Cristiancgt-byte" target="_blank">GitHub</a>
+  </p>
+  <!-- Botón que llama a la función de JavaScript para mostrar el modal -->
+  <button onclick="mostrarMensaje()">Haz clic aquí</button>
+</section>
+
+<!-- Modal (pantalla emergente oculta inicialmente) -->
+<div id="modal">
+  <div class="contenido">
+    <p>¡Gracias por visitar mi página!</p>
+    <!-- Botón para cerrar el modal -->
+    <button onclick="cerrarModal()">Cerrar</button>
+  </div>
+</div>
+
+<!-- Enlace al archivo JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
